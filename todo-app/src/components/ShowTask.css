@@ -1,0 +1,27 @@
+.line-through {
+  text-decoration: line-through;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.task-actions input {
+  padding: 15px;
+}
+
+.task-text {
+  flex: 1;
+  overflow: hidden;
+  min-width: 200px;
+  max-width: 500px;
+}
